@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+import { GlobalStyles } from './public/global.js'
+
 import { Details } from "./pages/Details/index.jsx";
 import { Profile } from "./pages/Profile";
-import { GlobalStyles } from './public/global.js'
+import { SignIn } from './pages/SignIn'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyles />
-    <Profile />
+    <SignIn />
   </React.StrictMode>
 );
