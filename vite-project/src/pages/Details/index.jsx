@@ -1,14 +1,16 @@
-import { Container } from "./styles.js";
-import { FaPlus } from "react-icons/fa6";
+import { Home } from "../Home/index.jsx";
 
-import { Button } from "../../components/Button/index.jsx";
+
+import { Container } from "./styles.js";
+
 import { Header } from "../../components/Header/index.jsx";
+
 
 export function Details() {
   return (
     <Container>
       <Header />
-      
+      <Home />
 
     </Container>
   )
