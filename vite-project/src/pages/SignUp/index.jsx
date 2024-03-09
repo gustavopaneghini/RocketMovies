@@ -3,12 +3,8 @@ import { Container } from './styles';
 
 import { MdOutlineEmail } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
-import { IoPerson } from "react-icons/io5";
-import { FaLongArrowAltLeft } from "react-icons/fa";
 
-
-
-export function SignIn() {
+export function SignUp() {
   return (
     <Container>
       <section>
@@ -18,15 +14,10 @@ export function SignIn() {
         </div>
 
 
-        <h2>Crie sua conta</h2>
+        <h2>Faça seu login</h2>
         <div className="inputSection">
 
           <div className="inputWrapper">
-            <IoPerson size={20} color='#948f99' />
-            <input type="email" placeholder='Nome' />
-          </div>
-          <div className="inputWrapper">
-
             <MdOutlineEmail size={20} color='#948f99' />
             <input type="email" placeholder='Email' />
           </div>
@@ -35,11 +26,10 @@ export function SignIn() {
             <input type="password" placeholder='Senha' />
           </div>
         </div>
-        <button>Cadastrar</button>
+        <button>Entrar</button>
 
-        <button className='signIn'>
-          <FaLongArrowAltLeft size={16} />
-          Voltar para o login
+        <button className='signUp'>
+          Criar conta
         </button >
 
       </section>

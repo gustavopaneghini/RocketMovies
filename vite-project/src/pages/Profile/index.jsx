@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 import { CiCamera } from "react-icons/ci";
 import { FaLongArrowAltLeft } from "react-icons/fa";
-
 import { IoPerson } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";

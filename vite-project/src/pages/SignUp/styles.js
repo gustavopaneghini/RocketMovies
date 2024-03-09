@@ -84,10 +84,7 @@ export const Container = styled.div`
       text-align: center;
     }
 
-    > button.signIn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    > button.signUp {
       background: none;
       border: none;
       border-radius: 1rem;
@@ -102,7 +99,7 @@ export const Container = styled.div`
 
   > span.backgroundImg {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     > img {
       display: block;
       width: 100%;
