@@ -6,17 +6,13 @@ import { GlobalStyles } from './public/global.js';
 
 import { Details } from "./pages/Details/index.jsx";
 import { Profile } from "./pages/Profile";
-<<<<<<< HEAD
 import { SignIn } from './pages/SignIn/index.jsx';
 import { SignUp } from './pages/SignUp/index.jsx';
-=======
-import { SignIn } from './pages/SignIn/index.jsx'
-import { SignUp } from './pages/SignUp/index.jsx'
->>>>>>> refs/remotes/origin/main
+import { NewMovie } from './pages/NewMovie'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyles />
-    <SignIn />
+    <NewMovie />
   </React.StrictMode>
 );

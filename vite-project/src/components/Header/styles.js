@@ -8,6 +8,7 @@ export const Container = styled.header`
   gap: 6.4rem;
   padding: 2.4rem 12.3rem;
   border-bottom: #3e3b47 solid 1px;
+  max-height: 11.6rem;
 
   > h1 {
     font-size: 2.4rem;

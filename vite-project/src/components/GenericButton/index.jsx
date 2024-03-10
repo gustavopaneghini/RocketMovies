@@ -3,7 +3,7 @@ import { Container } from "./styles";
 
 export function GenericButton({ children }) {
   return (
-    <Container>
+    <Container className='genericButton'>
       {children}
     </Container>
   );
