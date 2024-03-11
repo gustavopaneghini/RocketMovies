@@ -6,6 +6,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { Header } from '../../components/Header';
 import { GenericButton } from '../../components/GenericButton';
 import { Tags } from '../../components/Tags';
+
 export function CreateMovie() {
   return (
     <Container>

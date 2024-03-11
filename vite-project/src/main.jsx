@@ -9,11 +9,12 @@ import { Profile } from "./pages/Profile";
 import { SignIn } from './pages/SignIn/index.jsx';
 import { SignUp } from './pages/SignUp/index.jsx';
 import { NewMovie } from './pages/NewMovie';
-import { CreateMovie } from './pages/CreateMovie'
+import { CreateMovie } from './pages/CreateMovie';
+import { MoviePreview } from './pages/MoviePreview';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyles />
-    <CreateMovie />
+    <MoviePreview />
   </React.StrictMode>
 );

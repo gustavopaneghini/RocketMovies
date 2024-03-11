@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   > div {
-    height: 102.4rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
 
-    padding: 4rem 10.6rem 8.5rem 12.3rem;
+    padding: 4rem 10.6rem 5rem 12.3rem;
+    margin: 0 auto;
 
     > span.headerContent {
       > h1 {
@@ -133,7 +133,7 @@ export const Container = styled.div`
           border-radius: 1rem;
           color: #948f99;
 
-          background-color: transparent;
+          background: none;
           border-style: dashed;
           border-color: #948f99;
 

@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 
 
-export function Rating() {
+export function Rating({ sz }) {
   const [rating, setRating] = useState(null)
   const [hover, setHover] = useState(null)
 
@@ -17,7 +17,7 @@ export function Rating() {
             <input type="radio" name="rating" value={currentRating} onClick={() => { setRating(currentRating) }} />
             <FaStar
               className="star"
-              size={12}
+              size={sz || 12}
               color={
                 currentRating <= (hover || rating) ? '#FF859B' : '#e4e5e9'
               } onMouseEnter={() => {
