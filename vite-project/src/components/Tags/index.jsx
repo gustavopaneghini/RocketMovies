@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export function Tags({ tagName }) {
+export function Tags({ children }) {
   return (
-    <Container>
-      {tagName}
+    <Container className='tags'>
+      {children}
     </Container>
   )
 }
