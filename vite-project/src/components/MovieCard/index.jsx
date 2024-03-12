@@ -12,11 +12,10 @@ export function MovieCard({ title, description }) {
       <Rating />
       <p>{description}</p>
       <ul>
-        <Tags tagName={'Ficção Científica'} />
-        <Tags tagName={'Drama'} />
-        <Tags tagName={'Família'} />
-        <Tags tagName={'Espaço'} />
-        <Tags tagName={'Emocionante'} />
+        <Tags ><p>Ficção Científica</p></Tags>
+        <Tags ><p>Drama</p></Tags>
+        <Tags ><p>Família</p></Tags>
+        <Tags ><p>Emocionante</p></Tags>
       </ul>
     </Container>
   );

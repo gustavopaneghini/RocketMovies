@@ -1,9 +1,12 @@
 import { Container } from "./styles";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
     <Container>
-      <h1>Rocket Movies</h1>
+      <Link className='link' to='/'>
+        <h1>Rocket Movies</h1>
+      </Link>
       <input
         type="text"
         placeholder="Pesquisar por título"
@@ -11,8 +14,9 @@ export function Header() {
 
       <div className="profile">
         <div className="named">
-
-          <p>Gustavo Paneghini</p>
+          <Link className='link'>
+            <p>Gustavo Paneghini</p>
+          </Link>
           <button>sair</button>
         </div>
         <img
@@ -20,6 +24,6 @@ export function Header() {
         />
       </div>
 
-    </Container>
+    </Container >
   )
 }

@@ -20,6 +20,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto Slab', serif;
     font-size: 1.6rem;
     background-color: #1c1b1e;
+    overflow-y: hidden;
     width: 100%;
   }
 `;

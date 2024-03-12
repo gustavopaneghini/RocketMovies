@@ -9,12 +9,14 @@ export const Container = styled.header`
   padding: 2.4rem 12.3rem;
   border-bottom: #3e3b47 solid 1px;
   max-height: 11.6rem;
-
-  > h1 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 3.2rem;
-    color: #ff859b;
+  > .link {
+    text-decoration: none;
+    > h1 {
+      font-size: 2.4rem;
+      font-weight: bold;
+      line-height: 3.2rem;
+      color: #ff859b;
+    }
   }
 
   > input {
@@ -45,9 +47,12 @@ export const Container = styled.header`
       padding: 1.6rem 0.9rem 1.6rem 0;
       text-align: end;
 
-      > p {
-        font-weight: bold;
-        color: #f4ede8;
+      > .link {
+        text-decoration: none;
+        > p {
+          font-weight: bold;
+          color: #f4ede8;
+        }
       }
 
       > button {
